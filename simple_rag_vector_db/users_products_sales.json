@@ -1,0 +1,36 @@
+{
+    "columns":[
+        {"column": "user_id", "desc": "unique user id"},
+        {"column": "name", "desc": "user actual name"},
+        {"column": "age", "desc": "user actual age"},
+        {"column": "email", "desc": "user registered email"},
+        {"column": "product_id", "desc": "product unique id"},
+        {"column": "product_name", "desc": "product actual name"},
+        {"column": "category", "desc": "category which product belongs"},
+        {"column": "price", "desc": "product selling price"},
+        {"column": "sale_id", "desc": "transaction unique key"},
+        {"column": "sales_product_id", "desc": "product id sold"},
+        {"column": "quantity", "desc": "how many sold"},
+        {"column": "total_price", "desc": "how much paid"},
+        {"column": "sale_date", "desc": "recorded sale date"}
+    ],
+    "users": [
+        {"user_id": 1, "name": "Alice", "age": 30, "email": "alice@example.com"},
+        {"user_id": 2, "name": "Bob", "age": 25, "email": "bob@example.com"},
+        {"user_id": 3, "name": "Charlie", "age": 35, "email": "charlie@example.com"},
+        {"user_id": 4, "name": "Diana", "age": 28, "email": "diana@example.com"}
+    ],
+    "products": [
+        {"product_id": 101, "product_name": "Laptop", "category": "Electronics", "price": 1200.99},
+        {"product_id": 102, "product_name": "Smartphone", "category": "Electronics", "price": 699.99},
+        {"product_id": 103, "product_name": "Tablet", "category": "Electronics", "price": 299.99},
+        {"product_id": 104, "product_name": "Headphones", "category": "Accessories", "price": 199.99}
+    ],
+    "sales": [
+        {"sale_id": 1001, "user_id": 1, "sales_product_id": 101, "quantity": 1, "total_price": 1200.99, "sale_date": "2023-01-15"},
+        {"sale_id": 1002, "user_id": 2, "sales_product_id": 102, "quantity": 2, "total_price": 1399.98, "sale_date": "2023-02-20"},
+        {"sale_id": 1003, "user_id": 3, "sales_product_id": 103, "quantity": 1, "total_price": 299.99, "sale_date": "2023-03-05"},
+        {"sale_id": 1004, "user_id": 4, "sales_product_id": 104, "quantity": 3, "total_price": 599.97, "sale_date": "2023-04-12"},
+        {"sale_id": 1005, "user_id": 1, "sales_product_id": 102, "quantity": 1, "total_price": 699.99, "sale_date": "2023-05-18"}
+    ]
+}
